@@ -4,7 +4,7 @@ import {
   FiCode, 
   FiDatabase, 
   FiSmartphone, 
-  FiBrain,
+  FiCpu,
   FiGithub,
   FiExternalLink
 } from 'react-icons/fi';
