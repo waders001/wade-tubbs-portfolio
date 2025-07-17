@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiDownload, FiCalendar, FiCode, FiDatabase, FiSmartphone, FiBrain } from 'react-icons/fi';
+import { FiDownload, FiCalendar, FiCode, FiDatabase, FiSmartphone, FiCpu } from 'react-icons/fi';
 
 const Resume = () => {
   const experience = [
