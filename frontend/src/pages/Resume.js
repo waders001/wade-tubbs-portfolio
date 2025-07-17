@@ -133,7 +133,7 @@ const Resume = () => {
                 <h3 className="text-lg font-semibold text-white mb-4 flex items-center">
                   {category === 'Frontend' && <FiSmartphone className="w-5 h-5 mr-2 text-primary-400" />}
                   {category === 'Backend' && <FiDatabase className="w-5 h-5 mr-2 text-primary-400" />}
-                  {category === 'AI Integration' && <FiBrain className="w-5 h-5 mr-2 text-primary-400" />}
+                  {category === 'AI Integration' && <FiCpu className="w-5 h-5 mr-2 text-primary-400" />}
                   {category === 'Tools' && <FiCode className="w-5 h-5 mr-2 text-primary-400" />}
                   {category}
                 </h3>
