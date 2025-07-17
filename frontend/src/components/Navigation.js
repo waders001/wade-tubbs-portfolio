@@ -18,7 +18,7 @@ const Navigation = () => {
   const navItems = [
     { path: '/', label: 'Home', icon: FiHome },
     { path: '/about', label: 'About', icon: FiUser },
-    { path: '/projects', label: 'Projects', icon: FiFolderOpen },
+    { path: '/projects', label: 'Projects', icon: FiFolder },
     { path: '/resume', label: 'Resume', icon: FiFileText },
     { path: '/contact', label: 'Contact', icon: FiMail },
   ];
