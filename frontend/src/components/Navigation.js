@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { 
   FiHome, 
   FiUser, 
-  FiFolderOpen, 
+  FiFolder, 
   FiFileText, 
   FiMail,
   FiMenu,
