@@ -38,6 +38,7 @@ module.exports = {
         'fade-in': 'fadeIn 0.5s ease-in-out',
         'slide-up': 'slideUp 0.5s ease-out',
         'gradient': 'gradient 6s ease infinite',
+        blink: 'blink 1s step-start infinite', // ✅ Add this
       },
       keyframes: {
         fadeIn: {
@@ -51,6 +52,10 @@ module.exports = {
         gradient: {
           '0%, 100%': { backgroundPosition: '0% 50%' },
           '50%': { backgroundPosition: '100% 50%' },
+        },
+        blink: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0' },
         },
       },
     },
